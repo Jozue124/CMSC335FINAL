@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Application Confirmation</title>
+</head>
+
+<body>
+    <h1>Applicants data</h1>
+    <div>
+        <strong>Name: </strong>
+        <%- name %><br>
+        <strong>Email Address: </strong>
+        <%- email %><br>
+        <strong>GPA: </strong>
+        <%- gpa %><br>
+        <strong>Background Information: </strong>
+        <%- backgroundInformation %><br>
+        <br>
+        <hr>
+        <strong>Task completed at <%- dateTime %></strong>
+        <hr>
+        <a href="http://localhost:<%- port %>">HOME</a>
+    </div>
+</body>
+
+</html>

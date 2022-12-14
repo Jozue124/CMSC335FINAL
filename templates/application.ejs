@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Application</title>
+</head>
+
+<body>
+    
+    <form action="http://localhost:<%- port %>/application" method="post">
+
+        <fieldset>
+        
+            <label>Name: <input type="text" name="name" /></label>
+
+            <label>Email Address: <input type="email" name="email" placeholder="example@notreal.notreal"></label>
+        
+            <br>
+
+            <label>GPA: <input type="text" name="gpa"></label>
+
+            <br>
+            <legend>Background Information</legend>
+            <label><textarea rows="5" cols="80" name="backgroundInformation"></textarea></label>
+        </fieldset>
+        
+        <br>
+        <input type="reset" />
+        <input type="submit" value="Submit Application"/>
+
+    </form>
+</body>
+
+</html>
