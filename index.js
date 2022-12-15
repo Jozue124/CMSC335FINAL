@@ -28,6 +28,9 @@ const port = 3000;
 //starting up server message
 // const cardSet = require("cardSet.json");
 console.log(`Web server is running at http://localhost:${port}`);
+console.log(`username: ${userName}`);
+console.log(`password: ${password}`);
+
 // Fetch api from website containing open api for us to use
 
 //mongodb setup
