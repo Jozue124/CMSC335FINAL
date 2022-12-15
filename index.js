@@ -23,7 +23,7 @@ const { create } = require('domain');
 //   process.exit(1);
 // }
 //get the port
-const port = 3000;
+const port = process.env.PORT || 5000;
 
 //starting up server message
 // const cardSet = require("cardSet.json");
