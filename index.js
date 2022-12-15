@@ -6,7 +6,7 @@ const path = require("path");
 var fs = require('fs');
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
-require("dotenv").config({ path: path.resolve(__dirname, 'credentialsDontPost/.env') })  
+require("dotenv").config({ path: path.resolve(__dirname, '.env') })  
 const userName = process.env.MONGO_DB_USERNAME;
 const password = process.env.MONGO_DB_PASSWORD;
 
